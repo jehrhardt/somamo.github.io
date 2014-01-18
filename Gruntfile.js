@@ -4,6 +4,7 @@ module.exports = function(grunt) {
       app: {
         files: {
           'assets/js/jquery.js': 'bower_components/jquery/jquery.js',
+          'assets/js/bootstrap.js': 'bower_components/bootstrap/js/collapse.js',
           'assets/js/html5shiv.js': 'bower_components/html5shiv/dist/html5shiv-printshiv.js',
           'assets/js/respond.js': 'bower_components/respond/src/respond.js'
         }
