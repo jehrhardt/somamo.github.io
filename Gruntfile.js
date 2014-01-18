@@ -3,8 +3,9 @@ module.exports = function(grunt) {
     uglify: {
       app: {
         files: {
-          'assets/js/fix-ie.js': ['bower_components/html5shiv/dist/html5shiv-printshiv.js',
-                                  'bower_components/respond/respond.src.js']
+          'assets/js/jquery.js': 'bower_components/jquery/jquery.js',
+          'assets/js/html5shiv.js': 'bower_components/html5shiv/dist/html5shiv-printshiv.js',
+          'assets/js/respond.js': 'bower_components/respond/src/respond.js'
         }
       }
     }
